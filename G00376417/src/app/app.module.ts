@@ -18,21 +18,21 @@ import { UnitedstatesProvider } from '../providers/unitedstates/unitedstates';
   declarations: [
     MyApp,
     HomePage,
-	SettingsPage,
-	NewsPage
+	  SettingsPage,
+	  NewsPage
   ],
   imports: [
     BrowserModule,
-	HttpClientModule,
+	  HttpClientModule,
     IonicModule.forRoot(MyApp),
-	IonicStorageModule.forRoot()
+	  IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
     HomePage,
-	SettingsPage,
-	NewsPage
+	  SettingsPage,
+	  NewsPage
   ],
   providers: [
     StatusBar,
