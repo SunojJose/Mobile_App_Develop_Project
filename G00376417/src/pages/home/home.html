@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      <font color="blue"><ion-icon name="home"></ion-icon>My News App</font>
+	</ion-title>
+    <ion-buttons end>
+		<button ion-button  icon-only (click)="openSettings()" >
+		<font color="blue">	<ion-icon name="settings" ></ion-icon></font>
+		</button>
+	</ion-buttons>
+	
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h1> Welcome <font color="red">{{ name }}</font> </h1>
+  <button ion-button round  (click)="openNews()"> <ion-icon name="globe"  ></ion-icon>NEWS</button>
+	
+		<h1 *ngFor="let item of data"><font color="green">{{ item.quote }}</font></h1>
+		<p *ngFor="let item of data"> <font color="red">{{ item.author }} </font></p>
+		
+</ion-content>
