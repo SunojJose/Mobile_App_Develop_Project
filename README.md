@@ -2,7 +2,10 @@
 A News And Quote Of The Day Reader Application In Ionic-Angular
 
 My News App
-
+  A mobile application that reads news stories and a daily “Quote of the Day” from internet resources. It was built in Ionic-Angular.
+  When launched, the app shows a News button,and "Quote of the Day" in the screen. When clicked on the news button at first time that days news from the default 
+  country("Ireland") is displayed with default settings, but the user can select a different country from the list, the fonts of the texts in display etc from settings page by       clicking the settings button. Users are allowed to enter their name in settings page, and once the details are saved the next time they use the app they will greeted with a       welcome message which contains their name. The news is now based on the saved credentials from the settings page.
+  
   Project Functionality
 
     The project is designed as per the project documentation. It is tested in Google Chrome and Microsoft edge, and is functioned as expected. 
